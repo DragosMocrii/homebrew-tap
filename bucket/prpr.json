@@ -1,0 +1,20 @@
+{
+    "version": "0.1.11",
+    "description": "Terminal app for monitoring your open GitHub pull requests and review requests",
+    "homepage": "https://github.com/DragosMocrii/prpr",
+    "license": "MIT",
+    "depends": "gh",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/DragosMocrii/prpr/releases/download/v0.1.11/prpr_0.1.11_windows_amd64.zip",
+            "hash": "a7ffbba6255280963d6fcbf480ed8afa670433c09c295f2c0846440efe21159a",
+            "extract_dir": "prpr_0.1.11_windows_amd64"
+        },
+        "arm64": {
+            "url": "https://github.com/DragosMocrii/prpr/releases/download/v0.1.11/prpr_0.1.11_windows_arm64.zip",
+            "hash": "49843e83d183a6cb16e971fd47019787fa774502f7a2474afb00ec341de8edd7",
+            "extract_dir": "prpr_0.1.11_windows_arm64"
+        }
+    },
+    "bin": "prpr.exe"
+}
