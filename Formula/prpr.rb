@@ -2,30 +2,30 @@
 class Prpr < Formula
   desc "Terminal app for monitoring your open GitHub pull requests and review requests"
   homepage "https://github.com/DragosMocrii/prpr"
-  version "0.1.11"
+  version "0.1.12"
   license "MIT"
 
   depends_on "gh"
 
   on_macos do
     on_arm do
-      url "https://github.com/DragosMocrii/prpr/releases/download/v0.1.11/prpr_0.1.11_darwin_arm64.tar.gz"
-      sha256 "51ea42915aad6f1131ebd1a43b856c3e060f4b5a48a010793e4920c84eb78d3b"
+      url "https://github.com/DragosMocrii/prpr/releases/download/v0.1.12/prpr_0.1.12_darwin_arm64.tar.gz"
+      sha256 "f5d6b5888469fe0a54001538b92ca30af4a27bff5142740c30b718632538327a"
     end
     on_intel do
-      url "https://github.com/DragosMocrii/prpr/releases/download/v0.1.11/prpr_0.1.11_darwin_amd64.tar.gz"
-      sha256 "0510978485f4fecbeeff6d41864e215d74709dedc5b49a5ec019ef2aa39938ce"
+      url "https://github.com/DragosMocrii/prpr/releases/download/v0.1.12/prpr_0.1.12_darwin_amd64.tar.gz"
+      sha256 "15daca2e2eaf67638e6d275ec52ae5aeebf8a9def2605772665f39dea9d41d68"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/DragosMocrii/prpr/releases/download/v0.1.11/prpr_0.1.11_linux_arm64.tar.gz"
-      sha256 "721ab172e441857f8cbe5a1b6d3d5efe8290ee5f928c890da662385817ab09f9"
+      url "https://github.com/DragosMocrii/prpr/releases/download/v0.1.12/prpr_0.1.12_linux_arm64.tar.gz"
+      sha256 "f948912bd1b14f86c93ddaa9cc1d17ad5bdc40c8311d5af66b8e84cfa27cb05b"
     end
     on_intel do
-      url "https://github.com/DragosMocrii/prpr/releases/download/v0.1.11/prpr_0.1.11_linux_amd64.tar.gz"
-      sha256 "fa139ca104c56e76526e9d99736118f26d2c12fd94d70f9bd2fcdfd4c7da3070"
+      url "https://github.com/DragosMocrii/prpr/releases/download/v0.1.12/prpr_0.1.12_linux_amd64.tar.gz"
+      sha256 "1edfba480b8cfd04e59780372db6db3f0df21c3bb2b9bc605fbded52059d3033"
     end
   end
 
