@@ -1,19 +1,19 @@
 {
-    "version": "0.1.30",
+    "version": "0.1.31",
     "description": "Terminal app for monitoring your open GitHub pull requests and review requests",
     "homepage": "https://github.com/DragosMocrii/prpr",
     "license": "MIT",
     "depends": "gh",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/DragosMocrii/prpr/releases/download/v0.1.30/prpr_0.1.30_windows_amd64.zip",
-            "hash": "48674d9a45a9c555396356bd2fcd3423a2bfd50cbe7beaa2a6c8358ea709b0dc",
-            "extract_dir": "prpr_0.1.30_windows_amd64"
+            "url": "https://github.com/DragosMocrii/prpr/releases/download/v0.1.31/prpr_0.1.31_windows_amd64.zip",
+            "hash": "d4b702a2b34a596131ba3d710ab7d07ac05ac305dbb7a8aa8cfcab66d300d171",
+            "extract_dir": "prpr_0.1.31_windows_amd64"
         },
         "arm64": {
-            "url": "https://github.com/DragosMocrii/prpr/releases/download/v0.1.30/prpr_0.1.30_windows_arm64.zip",
-            "hash": "a0c3e58cd5a7a555af13d4a21cf3b05dd03cac52dba9cd9152e435781b01c67e",
-            "extract_dir": "prpr_0.1.30_windows_arm64"
+            "url": "https://github.com/DragosMocrii/prpr/releases/download/v0.1.31/prpr_0.1.31_windows_arm64.zip",
+            "hash": "85c3756ac75aad6aa645cf87be479c8429aeaa6bc43c277c24e685f034d094f4",
+            "extract_dir": "prpr_0.1.31_windows_arm64"
         }
     },
     "bin": "prpr.exe"
